@@ -1,5 +1,5 @@
 .main {
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -15,4 +15,53 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 90px;
+}
+/* ダークグレー */
+.color-dark-gray-2 {
+  background-color: rgb(67, 68, 72);
+}
+
+/* ダークグレー（少しブラウン寄り） */
+.color-dark-gray-brown {
+  background-color: rgb(101, 96, 97);
+}
+
+/* 中程度のブルーグレー */
+.color-medium-blue-gray {
+  background-color: rgb(120, 132, 143);
+}
+
+/* 淡い青 */
+.color-light-blue {
+  background-color: rgb(133, 179, 211);
+}
+
+/* 薄いブラウン/オレンジ */
+.color-light-brown-orange {
+  background-color: rgb(196, 143, 95);
+}
+
+/* ライトブラウン/グレー */
+.color-light-brown-gray {
+  background-color: rgb(189, 181, 167);
+}
+
+/* 明るいグレー */
+.color-light-gray-2 {
+  background-color: rgb(213, 209, 209);
+}
+
+/* 非常にライトなグレー/ベージュ */
+.color-very-light-gray {
+  background-color: rgb(231, 223, 217);
+}
+
+/* 明るい灰色/ベージュ */
+.color-light-beige {
+  background-color: rgb(240, 238, 232);
+}
+
+/* 非常に明るいグレー/ベージュ */
+.color-very-light-gray-2 {
+  background-color: rgb(254, 249, 245);
 }

@@ -1,0 +1,10 @@
+.header{
+    width: min(100%,100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav ul{
+    display: flex;
+}
+

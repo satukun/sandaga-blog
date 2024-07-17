@@ -10,20 +10,31 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 67, 68, 72;
+    --background-start-rgb: 231, 223, 217;
+    --background-end-rgb: 231, 223, 217;
+
+    --dark-gray-2-rgb: 67, 68, 72;
+    --dark-gray-brown-rgb: 101, 96, 97;
+    --medium-blue-gray-rgb: 120, 132, 143;
+    --light-blue-rgb: 133, 179, 211;
+    --light-brown-orange-rgb: 196, 143, 95;
+    --light-brown-gray-rgb: 189, 181, 167;
+    --light-gray-2-rgb: 213, 209, 209;
+    --very-light-gray-rgb: 231, 223, 217;
+    --light-beige-rgb: 240, 238, 232;
+    --very-light-gray-2-rgb: 254, 249, 245;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--dark-gray-2-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--very-light-gray-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--very-light-gray-rgb));
 }
 
 @layer utilities {
