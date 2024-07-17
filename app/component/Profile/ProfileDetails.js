@@ -1,7 +1,7 @@
 import Experience from "./Experience";
 import Education from "./Education";
 import Skills from "./Skills";
-import ProjectList from "../Projects/ProjectList";
+
 
 const ProfileDetails = () => {
     return (
@@ -11,7 +11,7 @@ const ProfileDetails = () => {
             <Skills/>
             <Education/>
             <Experience/>
-            <ProjectList/>
+
 
         </section>
     );

@@ -34,15 +34,13 @@ async function getPosts() {
 export default async function Blog() {
   const posts = await getPosts();
   return (
-    <main className={`${styles.main}`}>
-      <div className={styles.title}>
+      <section className={styles.title}>
         <div className={styles.gridWrapper}>
           {posts.map((post) => (
             <BlogCard photo={post.photo} title={post.title} date={post.datePublished} slug={post.slug} key={post.id}/>
           ))}
         </div>
-      </div>
-    </main>
+      </section>
   );
 }
 
